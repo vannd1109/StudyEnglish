@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridView
+        android:id="@+id/gvLsQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:numColumns="3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Thoát"
+            android:textColor="#fcf9f9"
+            android:textSize="20sp"
+            android:background="#43cc3c"
+            android:layout_marginRight="5dp"
+            android:textAllCaps="false"
+            android:bottomRightRadius="10dp"
+            android:bottomLeftRadius="10dp"
+            android:topLeftRadius="10dp"
+            android:topRightRadius="10dp"/>
+
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kết thúc"
+            android:textColor="#fcf9f9"
+            android:textSize="20sp"
+            android:background="#8e220a"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+</LinearLayout>

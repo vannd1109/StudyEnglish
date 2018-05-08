@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="Home" />
+    </group>
+    <item android:title="Danh mục">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_baihoc"
+                    android:icon="@drawable/ic_library_books_black_24dp"
+                    android:title="Bài học" />
+                <item
+                    android:id="@+id/nav_luyentap"
+                    android:icon="@drawable/ic_create_black_24dp"
+                    android:title="Luyện tập" />
+                <item
+                    android:id="@+id/nav_nguphap"
+                    android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+                    android:title="Ngữ pháp" />
+                <item
+                    android:id="@+id/nav_tratudien"
+                    android:icon="@drawable/ic_youtube_searched_for_black_24dp"
+                    android:title="Từ điển của tôi" />
+                <item
+                    android:id="@+id/nav_ghichu"
+                    android:icon="@drawable/ic_content_paste_black_24dp"
+                    android:title="Ghi chú" />
+                <item
+                    android:id="@+id/nav_score"
+                    android:icon="@drawable/ic_history_black_24dp"
+                    android:title="Lịch sử thi thử" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
